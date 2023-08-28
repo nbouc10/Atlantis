@@ -1,0 +1,39 @@
+Code,Index,IsTurnedOn,Name,Long Name,NumCohorts,VerticallyMigrates,HorizontallyMigrates,isFished,IsImpacted,isTAC,InvertType,isPredator,IsCover,isSiliconDep,isAssessed,IsCatchGrazer,isOverWinter
+ALE,0,1,Alewife,Alewife,7,1,1,0,0,0,FISH,1,0,0,0,0,0
+BLT,1,1,Bloater,Bloater,10,1,1,0,0,0,FISH,1,0,0,0,0,0
+SSP,2,1,Sculpin_S,Slimy Sculpin,8,1,1,0,0,0,FISH,1,0,0,0,0,0
+DSP,3,1,Sculpin_D,Deepwater Sculpin,8,1,1,0,0,0,FISH,1,0,0,0,0,0
+LWF,4,1,Whitefish,Lake Whitefish,16,1,1,1,1,1,FISH,1,0,0,0,0,0
+RDG,5,1,Goby,Round Goby,8,1,1,0,0,0,FISH,1,0,0,0,0,0
+YPH,6,1,Perch,Yellow Perch,11,1,1,1,1,1,FISH,1,0,0,0,0,0
+WAE,7,1,Walleye,Walleye,13,1,1,1,1,1,FISH,1,0,0,0,0,0
+RSM,8,1,Smelt,Rainbow Smelt,6,1,1,1,1,1,FISH,1,0,0,0,0,0
+SLP,9,0,Lamprey,Sea Lamprey,3,1,1,0,0,0,FISH,1,0,0,0,0,0
+CHK,10,1,Chinook,Chinook Salmon,6,1,1,1,1,1,FISH,1,0,0,0,0,0
+CHO,11,1,Coho,Coho Salmon,4,1,1,1,1,1,FISH,1,0,0,0,0,0
+STH,12,1,Steelhead,Steelhead Trout,9,1,1,0,0,0,FISH,1,0,0,0,0,0
+LKT,13,1,Lake_Trout,Lake Trout,16,1,1,1,1,1,FISH,1,0,0,0,0,0
+BBT,14,1,Burbot,Burbot,13,1,1,0,0,0,FISH,1,0,0,0,0,0
+SLC,15,0,Silver_C,Silver Carp,16,1,1,0,0,0,FISH,1,0,0,0,0,0
+BHC,16,0,Bighead_C,Bighead Carp,16,1,1,0,0,0,FISH,1,0,0,0,0,0
+COP,17,1,Copepods,Copepods,1,1,0,0,0,0,MED_ZOO,1,0,0,0,0,0
+CLA,18,1,Cladocerans,Herbivorous Cladocerans,1,1,0,0,0,0,MED_ZOO,1,0,0,0,0,1
+BYT,19,1,Bythotrephes,Bythotrephes,1,1,0,0,0,0,MED_ZOO,1,0,0,0,0,1
+MYS,20,1,Mysis,Mysis,1,1,0,0,0,0,LG_ZOO,1,0,0,0,0,0
+ROT,21,1,Rotifers,Rotifers,1,0,0,0,0,0,SM_ZOO,1,0,0,0,0,0
+PRO,22,1,Protozoa,Protozoa,1,0,0,0,0,0,SM_ZOO,1,0,0,0,0,0
+PB,23,1,Pelag_Bact,Pelagic Bacteria,1,0,0,0,0,0,PL_BACT,0,0,0,0,0,0
+BB,24,1,Sed_Bact,Sediment Bacteria,1,0,0,0,0,0,SED_BACT,0,0,0,0,0,0
+AMP,25,1,Amphipods,Amphipods,1,0,0,0,0,0,SM_INF,1,0,0,0,0,0
+DRE,26,1,Dreissenids,Dreissenid Mussels,1,0,0,0,0,0,SED_EP_FF,1,1,0,0,0,0
+CHI,27,1,Chironomids,Chironomids,1,0,0,0,0,0,SM_INF,1,0,0,0,0,0
+DIP,28,1,Diporeia,Diporeia,1,0,0,0,0,0,SM_INF,1,0,0,0,0,0
+OLI,29,1,Oligochaetes,Oligochaetes,1,0,0,0,0,0,SM_INF,1,0,0,0,0,0
+GRN,30,1,Greens,Green Algae,1,0,0,0,0,0,LG_PHY,0,0,0,0,0,0
+PIC,31,1,Picoplankton,Picoplankton ,1,0,0,0,0,0,SM_PHY,0,0,0,0,0,0
+BLU,32,0,Blue_Greens,Blue Green Algae,1,0,0,0,0,0,LG_PHY,0,0,0,0,0,0
+DIA,33,0,Diatom,Diatoms,1,0,0,0,0,0,LG_PHY,0,0,0,0,0,0
+MA,34,1,Macroalgae,Bethic Macroalgae,1,0,0,0,0,0,PHYTOBEN,0,1,0,0,0,0
+DL,35,1,Lab_Det,Labile Detritus,1,0,0,0,0,0,LAB_DET,0,0,0,0,0,0
+DR,36,1,Ref_Det,Refractory Detritus,1,0,0,0,0,0,REF_DET,0,0,0,0,0,0
+DC,37,1,Carrion,Carrion,1,0,0,0,0,0,CARRION,0,0,0,0,0,0
