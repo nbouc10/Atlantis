@@ -94,12 +94,12 @@ for (i in 1:34)local({
 #Salmon, Lake Trout, Steelhead are piscivores etc etc
 
 preyfish<- grid.arrange(plist[[1]], plist[[2]], plist[[3]], plist[[4]], plist[[5]], plist[[6]], plist[[7]], plist[[9]], nrow = 2)
-piscivores<-grid.arrange(plist[[8]], plist[[10]], plist[[11]], plist[[12]], plist[[13]], nrow = 1)
-pelzoop<- grid.arrange(plist[[14]], plist[[15]], plist[[16]], plist[[17]], plist[[18]], plist[[19]], nrow = 2)
-bacteria<- grid.arrange(plist[[20]], plist[[21]], nrow = 1)
-benthos<- grid.arrange(plist[[22]], plist[[23]], plist[[24]], plist[[25]], nrow = 1)
-primaryproducers<- grid.arrange(plist[[26]], plist[[27]], plist[[28]], plist[[29]], nrow = 1)
-
+piscivores<-grid.arrange(plist[[8]], plist[[10]], plist[[11]], plist[[12]], plist[[13]], plist[[14]], nrow = 2)
+pelzoop<- grid.arrange(plist[[15]], plist[[16]], plist[[17]], plist[[18]], plist[[19]], plist[[20]], nrow = 2)
+bacteria<- grid.arrange(plist[[21]], plist[[22]], nrow = 1)
+benthos<- grid.arrange(plist[[23]], plist[[24]], plist[[25]], plist[[26]], nrow = 1)
+primaryproducers<- grid.arrange(plist[[27]], plist[[28]], plist[[29]], nrow = 1)
+detritus <- grid.arrange(plist[[30]], plist[[31]], nrow = 1)
 #LM and ANOVA for each species, output results to console. 
 dvlist<-names(Agg)[1:29]
 model<- lapply(dvlist, function(x){
